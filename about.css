@@ -1,0 +1,51 @@
+:root {
+  --primary: #ff6b6b;
+  --secondary: #4ecdc4;
+  --heading-font: "Space Grotesk", sans-serif;
+  --body-font: "Inter", sans-serif;
+}
+
+body {
+  font-family: var(--body-font);
+}
+
+.navbar {
+  background-color: transparent !important;
+  backdrop-filter: blur(10px);
+}
+
+.hero-section {
+  min-height: 100dvh;
+  background: linear-gradient(45deg, var(--primary), var(--secondary));
+  padding-top: 80px;
+}
+
+.btn-custom {
+  background-color: var(--primary);
+  border: none;
+  border-radius: 25px;
+  padding: 10px 30px;
+  color: white;
+}
+
+.btn-custom:hover {
+  background-color: var(--secondary);
+  color: #ffffff;
+}
+
+.img-fluid {
+  box-shadow: 0 10px 20px #00000033;
+}
+
+h1,
+h2,
+h3,
+.navbar-brand {
+  font-family: var(--heading-font);
+  font-weight: 700;
+}
+
+.lead {
+  font-size: 1.25rem;
+  line-height: 1.6;
+}
