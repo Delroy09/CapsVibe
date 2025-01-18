@@ -1,3 +1,48 @@
+@font-face {
+  font-family: "Space Grotesk";
+  src: url("fonts/Space_Grotesk/static/SpaceGrotesk-Regular.ttf")
+    format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Space Grotesk";
+  src: url("fonts/Space_Grotesk/static/SpaceGrotesk-Medium.ttf")
+    format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Space Grotesk";
+  src: url("fonts/Space_Grotesk/static/SpaceGrotesk-Bold.ttf")
+    format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("fonts/Inter/static/Inter-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("fonts/Inter/static/Inter-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("fonts/Inter/static/Inter-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+
 :root {
   --primary: #ff6b6b;
   --secondary: #4ecdc4;
@@ -43,11 +88,13 @@ h3,
   border-radius: 25px;
   padding: 10px 30px;
   color: white;
+  transition: 250ms ease-out;
 }
 
 .btn-custom:hover {
   background-color: var(--secondary);
   color: #ffffff;
+  transition: 200ms ease-in;
 }
 
 .img-fluid {
